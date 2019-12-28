@@ -1,10 +1,12 @@
 {
-  "name": "test",
+  "name": "demo",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
-  "typings": "build/index",
-  "dependencies": {},
+  "main": "index.js",
+  "typings": "index",
+  "dependencies": {
+    "mmo-replace": "github:terkojones/mmo-replace"
+  },
   "devDependencies": {
     "@types/node": "^12.12.18"
   },
